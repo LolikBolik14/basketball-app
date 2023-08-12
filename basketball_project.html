@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+      }
+      .container {
+        padding: 30px 50px;
+        width: 60%;
+        background: linear-gradient(
+          to top,
+          #1e3c72 0%,
+          #1e3c72 1%,
+          #2a5298 100%
+        );
+        margin: 30px auto;
+      }
+      h1 {
+        padding: 20px;
+        border: 4px double #f18230;
+        border-radius: 5px;
+      }
+      h1,
+      h2 {
+        line-height: 48px;
+      }
+      h1,
+      h2,
+      caption,
+      th,
+      td,
+      button {
+        text-align: center;
+      }
+      p {
+        font-size: 18px;
+        display: block;
+        margin: 0 auto;
+        opacity: 0.95;
+        line-height: 1.5em;
+      }
+      hr {
+        border: 0;
+        height: 3px;
+        background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0),
+          rgb(245, 245, 245),
+          rgba(0, 0, 0, 0)
+        );
+      }
+      table {
+        border-collapse: collapse;
+        margin: 10px auto;
+      }
+      caption {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 10px;
+      }
+      th,
+      td {
+        padding: 2px 5px;
+        border-bottom: 1px solid #ddd;
+        font-size: 14px;
+        height: 50px;
+        width: 18%;
+      }
+      .head-td {
+        width: 10%;
+      }
+      tr:hover {
+        background-color: #f5f5f5;
+        color: #1e3c72;
+      }
+      img {
+        display: block;
+        margin: 20px auto;
+        max-width: 80%;
+        background: #ddd;
+        padding: 8px;
+        border: 1px solid #ccc;
+        box-shadow: 0 8px 8px -4px rgb(0 0 0 / 0.2);
+      }
+      a {
+        color: #ddd;
+        font-weight: 700;
+      }
+      button {
+        display: block;
+        background-color: #f18230;
+        border-radius: 25px;
+        border: 4px double #cccccc;
+        color: #eeeeee;
+        font-size: 28px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 20px auto;
+        padding: 10px 30px;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+      button span {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        transition: 0.5s;
+      }
+      button span:after {
+        content: "🏀";
+        position: absolute;
+        opacity: 0;
+        top: -5px;
+        right: -30px;
+        transition: 1s;
+      }
+      button:hover {
+        background-color: #fba768;
+      }
+      button:hover span {
+        padding-right: 35px;
+      }
+      button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>I LOVE BASKETBALL 🏀!</h1>
+      <h2>How to choose a basketball (ball)?</h2>
+      <p>
+        A basketball is a spherical ball used in basketball games. Basketballs
+        usually range in size from very small promotional items that are only a
+        few inches (<em>some centimeters</em>) in diameter to extra large balls
+        nearly 2 feet (60 cm) in diameter used in training exercises.<br />
+        Aside from the court and the baskets, the basketball is the only piece
+        of equipment necessary to play the game of basketball. During the game,
+        the ball must be bounced continuously (dribbling), thrown through the
+        air to other players (passing) or thrown towards the basket (shooting).
+        Therefore, the ball must be very durable and easy to hold on to.
+      </p>
+      <hr />
+      <img
+        src="https://timebusinessnews.com/wp-content/uploads/basketball.jpg"
+        alt="Basketball"
+      />
+      <hr />
+      <table>
+        <caption>
+          Different sizes are used for different age groups.
+          <strong>The common standards are:</strong>
+        </caption>
+        <tbody>
+          <tr>
+            <th class="head-td">Size</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+          </tr>
+          <tr>
+            <th class="head-td">Type</th>
+            <td>Mini (North America)</td>
+            <td>Youth (North America)</td>
+            <td>Youth (North America)<br />Mini (FIBA)</td>
+            <td>Women</td>
+            <td>Men</td>
+          </tr>
+          <tr>
+            <th class="head-td">Circumference</th>
+            <td>56 cm<br />22.0 in</td>
+            <td>65 cm<br />25.5 in</td>
+            <td>685-700 mm<br />27.0-27.6 in</td>
+            <td>715-730 mm<br />28.1-28.7 in</td>
+            <td>750-770 mm<br />29.5-30.3 in</td>
+          </tr>
+          <tr>
+            <th class="head-td">Weight</th>
+            <td>280 g<br />10 oz</td>
+            <td>400 g<br />14 oz</td>
+            <td>495 g<br />16-17 oz</td>
+            <td>510-550 g<br />18-19 oz</td>
+            <td>580-620 g<br />20-22 oz</td>
+          </tr>
+          <tr>
+            <th class="head-td">Notes on basketball</th>
+            <td>
+              Children ages 4-8 years old. Also known as “mini” basketball.
+            </td>
+            <td>Children ages 5-8 years old.</td>
+            <td>
+              Children ages 9-11 years old. This is the standard youth
+              basketball.
+            </td>
+            <td>
+              Boys ages 12-14. Women and girls ages 12 and up. This is the
+              official size for women's high school, college, and professional.
+            </td>
+            <td>
+              Men and boys ages 15 and up. This is the official size for men's
+              high school, college, and professional.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <a
+        href="https://en.wikipedia.org/wiki/Basketball_%28ball%29"
+        target="_blank"
+        >Link on Wikipedia
+      </a>
+      <button class="btn"><span>Choose a ball </span></button>
+    </div>
+    <script>
+      function getApply() {
+        let helloName = prompt(`Hello!\nWhat is you name?`);
+        let age = prompt(`How old is a player?"`);
+        let apply =
+          age >= 4 && age <= 8
+            ? `${helloName}, choose size 3 or 4`
+            : age >= 9 && age <= 11
+            ? `${helloName}, choose size 5`
+            : age >= 12 && age <= 14
+            ? `${helloName}, choose size 6`
+            : age > 14 && age < 110
+            ? `${helloName}, if player female choose size 6 and male size 7`
+            : `${helloName}!\nSorry, please try again`;
+        alert(apply);
+      }
+      let contactButton = document.querySelector("button");
+      contactButton.addEventListener("click", getApply);
+    </script>
+  </body>
+</html>
